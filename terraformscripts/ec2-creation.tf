@@ -6,7 +6,7 @@ resource "aws_instance" "AWSServer"{
 ami = "ami-02bb7d8191b50f4bb"
 instance_type = "t2.micro"
 key_name = "mithuntechnologiesdevops"
-security_groups = ["launch-wizard-2"]
+security_groups = ["launch-wizard-14"]
 tags = {
 Name = "tomcatsservers"
 }
